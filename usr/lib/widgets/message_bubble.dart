@@ -80,9 +80,9 @@ class MessageBubble extends StatelessWidget {
                           fontSize: 11,
                         ),
                       ),
-                      if (message.isMe) ..[
+                      if (message.isMe) ...[
                         const SizedBox(width: 4),
-                        Icon(
+                        const Icon(
                           Icons.done_all,
                           size: 14,
                           color: Colors.white70,
